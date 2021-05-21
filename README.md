@@ -1,4 +1,4 @@
-# [Youtube Uploader Bot](https://tx.me/youtubeitbot)
+# [Youtube Uploader Bot](https://telegram.me/haidarkrar)
 
 > Simple [Telegram Bot](https://core.telegram.org/bots "Telegram Bots") to Upload videos to [Youtube](https://youtube.com "YouTube") written in Python3.
 
@@ -118,7 +118,7 @@ Here's a YouTube tutorial video for deploying the bot on [Heroku](https://heroku
 
 ### Contact
 
-You can contact me [@odysseusmax](https://telegram.dog/odysseusmax "odysseusmax").
+You can contact me [عدي الغولي](https://telegram.me/haidarkrar "ohaidarkrar").
 
 ### License
 Code released under [GNU General Public License v3.0](LICENSE).
