@@ -67,7 +67,7 @@ class Uploader:
             categoryName = self.video_category[categoryId]
             title = self.title if self.title else os.path.basename(self.file)
             title = (Config.VIDEO_TITLE_PREFIX + title + Config.VIDEO_TITLE_SUFFIX).replace('<', '').replace('>', '')[:100]
-            description = (Config.VIDEO_DESCRIPTION + '\nUploaded to YouTube with https://tx.me/youtubeitbot')[:5000]
+            description = (Config.VIDEO_DESCRIPTION + '\nتم تحميل الفديو عبر بوت الرفع لليوتيوب للمطور عدي الغولي ')[:5000]
             if not Config.UPLOAD_MODE:
                 privacyStatus = 'private'
             else:
@@ -89,7 +89,7 @@ class Uploader:
 
             video_id = r['id']
             self.status = True
-            self.message = f"[{title}](https://youtu.be/{video_id}) uploaded to YouTube under category {categoryId} ({categoryName})"
+            self.message = f"[{title}](https://youtu.be/{video_id})تم تحميل الفديو الى اليوتيوب  في تصنيف  {categoryId} ({categoryName})"
         except Exception as e:
             log.error(e, exc_info=True)
             self.status = False
