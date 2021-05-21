@@ -125,13 +125,13 @@ async def progress(cur, tot, start_time, status, snt, c, download_id):
             eta = datetime.timedelta(seconds=int(((tot-cur)/(1024*1024))/speed))
             elapsed = datetime.timedelta(seconds=diff)
             progress = round((cur * 100) / tot, 2)
-            text = f"{status}\n\n{progress}% done.\n{curr} of {tott}\nSpeed: {speed} {unit}PS\nETA: {eta}\nElapsed: {elapsed}"
+            text = f"{status}\n\n{progress}% تم تحميل.\n{curr} of {tott}\nسرعة التحميل: {speed} {unit}PS\nالوقت المتبقي : {eta}\nالوقت المنقضي: {elapsed}"
             await snt.edit_text(
                 text = text,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('Cancel!', f'cncl+{download_id}')
+                            InlineKeyboardButton('الغاء التحميل!', f'cncl+{download_id}')
                         ]
                     ]
                 )
