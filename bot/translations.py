@@ -1,38 +1,38 @@
 
 class Messages:
 
-    START_MSG = "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube once you authorise me.You can know more from /help.\n\nThank you."
+    START_MSG = "مرحبا {}.\n\nانا بوت الرفع الى اليوتيوب.تستطيع استخدامي لرفع الفديوهات من التلقرام الى اليوتيوب .لربط قناتك اليوتيوب مع البوت اضغط  /help.\n\nوشكرا لك ."
 
     HELP_MSG = [
         ".",
-        "Hi there.\n\nFirst things first. You should be aware that youtube processes each and every video uploaded, and its AI is amazing that it flags the video for copyrights if it finds copywrited content as soon as its uploaded, and you will not be able to publish the video.\n\nRead through all the pages to know how I work.",
+        "مرحبا بك .\n\nاولا . يجب أن تدرك أن موقع يوتيوب يتعرف على كل فيديو تم تحميله ، وأن الذكاء الاصطناعي الخاص به مدهش يستطيع يميز الفيديو المحتوي   على حقوق الطبع والنشر إذا وجد محتوى بها حقوق لقناة اخرى بمجرد تحميله ، سيقوم بحذف  الفيديو.\n\nRead through all the pages to know how I work.",
 
-        "**Lets learn how I work.**\n\n**Step 1:** __You authorise me to upload to your youtube channel.More about this in comming pages.__\n\n**Step 2:** __You forward any Telegram video to me.__\n\n**Step 3:** __You reply __/upload __to the forwarded video file.You can also specify some title in the upload command, but its optional though.Title will follow the __`/upload`.__If no title is given, filename will be used as title.__\n\n**Step 4:** __I remotely download the file and uploads to your Youtube channel.__\n\n**Step 5:** __I send you the Youtube link after upload.__",
+        "**خطوات تفعيل البوت .**\n\n**الخطوة الاولى :** __انت يجب ان تربط قناتك اليوتيوب مع البوت ستعرف ذلك بالخطوات التالية .__\n\n**الخطوة الثانية :** __قم بارسال الفديو المراد تحميله لليوتيوب .__\n\n**الخطوة الثالثة:** رد على الفديو الي رسلته بالامر /upload مع عنوان الفديو.\n\n**الخطوة الرابعة :** انا ساقوم برفع الفديو لقناتك على يوتيوب  .__\n\n**الخطوة الخامسة :** انا ساقوم بارسال رابط الفديو اليك ",
 
-        "**Create your youtube channel**\n\nThere is no point in using me if you dont have a Youtube Channel.So go through the given steps to create one.\n\n**Step 1:** __Sign in to YouTube on a computer or using the mobile.__\n\n**Step 2:** __Try any action that requires a channel, such as uploading a video, posting a comment, or creating a playlist.__\n\n**Step 3:** __If you don't yet have a channel, you'll see a prompt to create a channel.__\n\n**Step 4:** __Check the details and confirm to create your new channel.__",
+        "**اصنع قناتك اليوتيوب **\n\nاذا لم يكن لديك قناة يوتيوب لن تستطيع الاستفاده من البوت .لذلك اذا لا يوجد لديك قناة اصنع لك واحده .\n\n**الخطوة الاولى :**  قم بتسجيل الخول الى يوتيوب عبر بريدك .__\n\n**الخطوة الثانية :** قم بنشر بعض الفديوهات وسوي تعليقات بمعنى ان تتفاعل قليلا \n\n**الخطوة الثالثة :** بعد ان تصنع قناة وتكون جاهزة  اضغط التالي",
 
-        "**Verify your YouTube account**\n\nYoutube take spam and abuse very seriously. So you are asked to verify your Youtube account. Once you've verified your account, you will be able to upload videos longer than 15 minutes. If you haven't verified your account every video uploaded which are longer than 15 minutes will be removed.\n[Verify your Youtube account here.](http://www.youtube.com/verify)\n\n__Remember to verify your project, else your uploads will be kept private.__",
+        "**تاكيد قناتك عبر رقم الهاتف**\n\nيجب عليك تاكيد قناتك من اجل تجنب حظر القناة من يوتيوب . بعد ان تسوي تاكيد للقناة تستطيع ان تقوم برفع الفديوهات .  اذا لم تقوم بتاكيد قناتك برقم الاتف لن تستطيع رفع لفديوهات اكثر من 15 دقيقه .\n[لتاكيد قناتك اضغط هنا .](http://www.youtube.com/verify)\n\n بعد ذلك يمكنك استخدام البوت بنجاح ",
 
-        "**Now lets authorise.**\n\nYou need to give me the access to upload videos to your Youtube account.For that open the given link and allow access and copy the code. Come back here and type `/authorise copied-code` and send it.\n\n**Fear not!**\nI'm not a hacker or someone who wants to creep into people's privacy. I respect one's privacy. I'm here just to help anyone who wants help. If I was a hacker I won't be sitting here writing Telegram Bots."
+        "**الان دعنا نربط قناتك بالبوت .**\n\n اضغط على اربط قناتي بالزر بالاسفل واعطيني صلاحيات النشر للفديوهات وسوف يعطيك كود قم بنسخه  قم بارسال الكود وقبله الامر التالي /authorise الكود هنا  .\n\n**ملاحظة !**\nنحن لسنا مخترقين ابدا ونحترم خصوصيات الناس. . نحن  نحن هنا لمساعدتكم ."
     ]
 
     NOT_A_REPLY_MSG = "Please reply to some video file."
 
-    NOT_A_MEDIA_MSG = "No media file found. "+NOT_A_REPLY_MSG
+    NOT_A_MEDIA_MSG = "لا يوجد ملف وسائط . "+NOT_A_REPLY_MSG
 
-    NOT_A_VALID_MEDIA_MSG = "This is not a valid media"
+    NOT_A_VALID_MEDIA_MSG = "المعذرة لا يمكنني تحميل هذا النوع من الوسائط "
     
-    DAILY_QOUTA_REACHED = "Looks like you are trying to upload more than 6 videos today! By default youtube only allows about 6 uploads daily, so this request might fail!!"
+    DAILY_QOUTA_REACHED = "يبدو أنك تحاول تحميل أكثر من 6 مقاطع فيديو اليوم! بشكل افتراضي ، يسمح موقع youtube بحوالي 6 تحميلات يوميًا فقط ، لذلك قد يفشل هذا الطلب !!"
 
-    PROCESSING = "Processing....."
+    PROCESSING = "جاري رفع الفديو ....."
 
-    NOT_AUTHENTICATED_MSG = "You have not authenticated me to upload video to any account. see /help to authenticate"
+    NOT_AUTHENTICATED_MSG = "لم تقوم بربط قناتك  بالبوت بالوقت الحالي اضغط  /help  للمساعدة"
 
-    NO_AUTH_CODE_MSG = "There is no code. Please provide some code"
+    NO_AUTH_CODE_MSG = "لا يوجد اي كود يجب ان تزودني بكود "
 
-    AUTH_SUCCESS_MSG = "Congrats, you have successfully authenticated me to upload to Youtube.\nHappy uploading!"
+    AUTH_SUCCESS_MSG = "مبرووك لقد قمت بربط البوت بنجاح .\nاستمتع بتحميل الفديوهات !"
 
-    AUTH_FAILED_MSG = "Authentication failed\nDetails:{}"
+    AUTH_FAILED_MSG = "فشلت عملية ربط القناة \nالتفاصيل :{}"
     
-    AUTH_DATA_SAVE_SUCCESS = "Successfully saved the given auth data!"
+    AUTH_DATA_SAVE_SUCCESS = "تم حفظ البيانات بنجاح!"
     
